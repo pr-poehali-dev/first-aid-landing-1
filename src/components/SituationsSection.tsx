@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/card";
 import { 
   Thermometer, 
-  Flask, 
+  Beaker, 
   Bug, 
   ZapOff, 
   Snowflake, 
@@ -44,7 +44,7 @@ const SituationsSection = () => {
               <Card>
                 <CardHeader>
                   <CardTitle className="flex items-center">
-                    <Flask className="mr-2 h-5 w-5 text-firstaid-primary" />
+                    <Beaker className="mr-2 h-5 w-5 text-firstaid-primary" />
                     Пищевое отравление
                   </CardTitle>
                   <CardDescription>
