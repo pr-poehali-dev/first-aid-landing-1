@@ -9,9 +9,11 @@ const Header = () => {
           <h1 className="text-2xl font-bold">ПерваяПомощь.рф</h1>
         </div>
         <nav>
-          <ul className="flex space-x-6">
+          <ul className="flex flex-wrap space-x-4 md:space-x-6">
             <li><a href="#about" className="hover:underline">О проекте</a></li>
+            <li><a href="#basics-principles" className="hover:underline">Основы</a></li>
             <li><a href="#emergency" className="hover:underline">Экстренные случаи</a></li>
+            <li><a href="#situations" className="hover:underline">Различные ситуации</a></li>
             <li><a href="#basics" className="hover:underline">Базовые навыки</a></li>
           </ul>
         </nav>
