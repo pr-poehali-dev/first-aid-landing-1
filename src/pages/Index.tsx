@@ -6,6 +6,7 @@ import EmergencySection from "@/components/EmergencySection";
 import SituationsSection from "@/components/SituationsSection";
 import BasicsSection from "@/components/BasicsSection";
 import Footer from "@/components/Footer";
+import EditModeToggle from "@/components/EditModeToggle";
 
 const Index = () => {
   return (
@@ -20,6 +21,7 @@ const Index = () => {
         <BasicsSection />
       </main>
       <Footer />
+      <EditModeToggle />
     </div>
   );
 };
